@@ -11,7 +11,7 @@ const crypto = require('crypto')
 const urlParser = require('url-parse')
 const uniqueBy = require('unique-by')
 
-const slackWebHook = process.env.LABS_SLACK_WEBHOOK_URL_DEVPARANA_BOT_PR || 'https://hooks.slack.com/services/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'
+const slackWebHook = process.env.LABS_SLACK_WEBHOOK_URL_DEVPARANA_BOT_PR || ''
 const dbFile = path.join(__dirname, 'data/db.json')
 const file4Tests = path.join(__dirname, 'jobs.rss')
 const sandBox = false
