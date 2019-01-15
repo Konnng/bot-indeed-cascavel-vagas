@@ -190,7 +190,7 @@ try {
 
     slackClient.chat.postMessage({
       text: (jobs.length > 1 ? 'Vagas de trabalho encontradas' : 'Vaga de trabalho encontrada') + ' em *Cascavel*. Confira!',
-      channel: '#vdvtt-bot-test'
+      channel: '#vagas'
     }).then(response => {
       if (!response.ok) {
         throw new Error(response.error)
