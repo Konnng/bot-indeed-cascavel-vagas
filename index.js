@@ -150,6 +150,7 @@ try {
       _log('Processing items to send to slack...')
     } else {
       _log('No new jobs to send to slack...')
+      return false
     }
 
     _log('-'.repeat(100))
